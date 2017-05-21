@@ -1,12 +1,10 @@
 name:                bf2rb
 version:             0.1.0.0
--- synopsis:
--- description:
 homepage:            https://github.com/chihiro/bf2rb#readme
 license:             BSD3
 license-file:        LICENSE
 author:              Rose
-maintainer:          rose@lain.org.uk
+maintainer:          rose@lain.org.uk, awkure@protonmail.ch
 copyright:           2017 Rose
 category:            Web
 build-type:          Simple
