@@ -1,5 +1,4 @@
-
--,+[                         Read first character and start outer character reading loop
+-,+[                        Read first character and start outer character reading loop
    -[                       Skip forward if character is 0
        >>++++[>++++++++<-]  Set up divisor (32) for division loop
                               (MEMORY LAYOUT: dividend copy remainder divisor quotient zero zero)
@@ -26,4 +25,4 @@
    <[-]                     Clear remainder from first division if second division was skipped
    <.[-]                    Output ROT13ed character from copy and clear it
    <-,+                     Read next character
-]                            End character reading loop
+]                           End character reading loop
